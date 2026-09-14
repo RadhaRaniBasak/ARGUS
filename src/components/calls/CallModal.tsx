@@ -499,7 +499,7 @@ export const CallModal: React.FC<CallModalProps> = ({
                 <p className="text-[11px] leading-relaxed">
                   {hasApiKey
                     ? `Ready to place a live telephone call to a real mobile or landline device using Call-E's Sarah voice agent.`
-                    : `To dial an actual telephone number on the carrier network, add your CALLE_API_KEY in the AI Studio Settings > Secrets panel (or enter your key below for this session).`}
+                    : `To dial an actual telephone number on the carrier network, add your CALLE_API_KEY environment variable (or enter your key below for this session).`}
                 </p>
 
                 {!calleConfig?.hasApiKey && (
