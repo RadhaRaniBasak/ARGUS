@@ -1,7 +1,8 @@
 {
-  "name": "react-example",
+  "name": "argus-clinical-platform",
+  "description": "Autonomous clinical patient recall and telephony platform",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
