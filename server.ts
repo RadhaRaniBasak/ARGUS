@@ -187,7 +187,7 @@ async function startServer() {
 
       if (!apiKey) {
         return res.status(400).json({
-          error: 'CALLE_API_KEY is not configured. Please add your CALL-E API key in AI Studio Settings (Secrets) or enter it in the connection drawer.',
+          error: 'CALLE_API_KEY is not configured. Please add your CALL-E API key to environment variables (.env) or enter it in the connection drawer.',
           code: 'MISSING_API_KEY'
         });
       }
@@ -362,3 +362,4 @@ async function startServer() {
 }
 
 startServer();
+
