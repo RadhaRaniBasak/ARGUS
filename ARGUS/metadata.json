@@ -1,0 +1,6 @@
+{
+  "name": "ARGUS",
+  "description": "Vigilant autonomous AI clinical patient recall and health outreach platform powered by Call-E conversational voice agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
